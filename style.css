@@ -1,0 +1,33 @@
+:root {
+  --blue: #0a0c19;
+  --dark-violet: #1b1938;
+  --violet: #aa5cdb;
+  --white: #fff;
+  --off-white: #dcdcdc;
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Lexend Deca", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:#1b1938;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  background-color: red;
+  height: 80vh;
+  width: 70%;
+}
+.card-container{
+  width: 50%;
+}
+.img-container{
+  width: 50%;
+}
